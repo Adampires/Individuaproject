@@ -23,7 +23,7 @@ public class about extends AppCompatActivity {
         githubLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url = "https://github.com/Adampires/individuaproject.git";
+                String url = "https://github.com/Adampires/Individuaproject.git";
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 startActivity(intent);
             }
