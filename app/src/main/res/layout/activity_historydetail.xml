@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFF8E1"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Title -->
+        <TextView
+            android:text="Bill Details"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#DC2525"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Card-like container -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#FFFFFF">
+
+            <TextView android:id="@+id/monthText"
+                android:text="Month: January"
+                android:textSize="18sp"
+                android:textColor="#212121"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView android:id="@+id/yearText"
+                android:text="Year: 2025"
+                android:textSize="18sp"
+                android:textColor="#212121"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView android:id="@+id/kwhText"
+                android:text="kWh Used: 350"
+                android:textSize="18sp"
+                android:textColor="#212121"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView android:id="@+id/totalChargeText"
+                android:text="Total Charges: RM 100.00"
+                android:textSize="18sp"
+                android:textColor="#212121"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView android:id="@+id/rebateText"
+                android:text="Rebate: 10%"
+                android:textSize="18sp"
+                android:textColor="#212121"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView android:id="@+id/finalCostText"
+                android:text="Final Cost: RM 90.00"
+                android:textSize="18sp"
+                android:textColor="#212121"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Energy Tip -->
+        <TextView
+            android:id="@+id/energyTip"
+            android:text="Tip: Use LED bulbs to save energy!"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:textColor="#333333"
+            android:padding="16dp"
+            android:background="#FFF9C4"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Delete Button -->
+        <Button
+            android:id="@+id/deleteBtn"
+            android:text="Delete Record"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#DC2525"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</ScrollView>

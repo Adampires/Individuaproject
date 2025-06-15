@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8E1"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Profile Photo -->
+        <ImageView
+            android:id="@+id/profile_image"
+            android:src="@drawable/adam"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Profile Image" />
+
+        <!-- App Title -->
+        <TextView
+            android:text="About This App"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#DC2525"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Name -->
+        <TextView
+            android:text="Adam Nurhakim Bin Hasni"
+            android:textSize="18sp"
+            android:textColor="#212121"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Student ID -->
+        <TextView
+            android:text="2024988745"
+            android:textSize="16sp"
+            android:textColor="#616161"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Course Info -->
+        <TextView
+            android:text="CDCS240\nBachelor of Information Technology (Hons.)"
+            android:textSize="16sp"
+            android:textColor="#212121"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Copyright -->
+        <TextView
+            android:text="© 2025 All rights reserved.\nSmart Electricity App"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- GitHub Link -->
+        <TextView
+            android:id="@+id/github_link"
+            android:text="📎 View Source Code on GitHub"
+            android:textSize="16sp"
+            android:textColor="#1976D2"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

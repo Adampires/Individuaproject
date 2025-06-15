@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.individuaproject">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Individuaproject"
+        tools:targetApi="31">
+
+        <!-- Splash screen with logo and welcome button -->
+        <activity
+            android:name=".first"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main calculator screen -->
+        <activity android:name=".MainActivity" />
+
+        <!-- Appliance Estimator screen -->
+        <activity android:name=".Estimate" />
+
+        <!-- View saved records -->
+        <activity android:name=".History" />
+
+        <!-- Detailed breakdown of selected bill -->
+        <activity android:name=".Historydetail" />
+
+        <!-- About page -->
+        <activity android:name=".about" />
+
+    </application>
+
+</manifest>
