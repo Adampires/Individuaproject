@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     int currentKwh = 0;
     int currentRebate = 0;
     String currentMonth = "";
-    String currentYear = "2025"; // You can make this dynamic if needed
+    String currentYear = "2025";
 
     double calculateCharges(int kwh) {
         double total = 0;

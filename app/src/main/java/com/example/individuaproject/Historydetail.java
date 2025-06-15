@@ -30,7 +30,7 @@ public class Historydetail extends AppCompatActivity {
         rebateText = findViewById(R.id.rebateText);
         finalCostText = findViewById(R.id.finalCostText);
         deleteBtn = findViewById(R.id.deleteBtn);
-        tipText = findViewById(R.id.energyTip); // You must add this TextView in your XML
+        tipText = findViewById(R.id.energyTip);
 
         dbHelper = new DatabaseHelper(this);
 

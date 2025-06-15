@@ -12,12 +12,12 @@ public class first extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_first); // Make sure your XML file is named correctly
+        setContentView(R.layout.activity_first);
 
         welcomeBtn = findViewById(R.id.btnWelcome);
 
         welcomeBtn.setOnClickListener(v -> {
-            Intent intent = new Intent(first.this, MainActivity.class); // Ensure this matches the actual target activity
+            Intent intent = new Intent(first.this, MainActivity.class);
             startActivity(intent);
             finish();
         });
