@@ -45,6 +45,28 @@
             android:background="@android:drawable/btn_dropdown" />
 
         <TextView
+            android:text="Days Used"
+            android:textColor="#212121"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/daySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown" />
+
+        <TextView
+            android:id="@+id/resultPerHour"
+            android:text="kWh Per Hour:"
+            android:textSize="16sp"
+            android:textColor="#212121"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
             android:id="@+id/resultKwh"
             android:text="Estimated kWh: "
             android:textSize="16sp"
